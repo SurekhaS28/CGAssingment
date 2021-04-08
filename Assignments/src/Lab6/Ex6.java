@@ -25,11 +25,11 @@ public class Ex6 {
 		{
 			LocalDate dob=LocalDate.parse(e.getValue());
 			LocalDate curDate = LocalDate.now();
-	        int a=Period.between(dob, curDate).getYears();
-	        if(a>=18)
-	        {
-	        	ll.add(e.getKey());
-	        }
+	                int a=Period.between(dob, curDate).getYears();
+	                if(a>=18)
+	               {
+	        	   ll.add(e.getKey());
+	               }
 		}
 		return ll;
 	}
