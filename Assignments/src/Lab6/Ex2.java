@@ -18,11 +18,11 @@ public class Ex2 {
 		{
 			if(map.containsKey(ch))
 			{
-                map.put(ch, map.get(ch)+1);
+                             map.put(ch, map.get(ch)+1);
 			}
 			else
 			{
-                map.put(ch, 1);
+                            map.put(ch, 1);
 			}
 		}
 		System.out.println(map);
